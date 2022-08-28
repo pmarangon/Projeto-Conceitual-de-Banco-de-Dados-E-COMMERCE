@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T23:52:36.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="l8Dgdl_2jxc5plO6bb7s" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T00:01:57.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JnLnw-0rhvA1ci5YJTuq" version="20.2.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -148,7 +148,7 @@
           <mxGeometry x="15" y="40" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eb6fFAVOhAl2emcrvOop-9" value="Pré Requisitos" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1100" width="200" height="200" as="geometry" />
+          <mxGeometry x="480" y="1080" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="eb6fFAVOhAl2emcrvOop-10" value="IdPre Requisitos Int" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-9">
           <mxGeometry x="10" y="40" width="130" height="30" as="geometry" />
@@ -182,6 +182,18 @@
             <mxPoint x="240" y="780" as="sourcePoint" />
             <mxPoint x="330" y="890" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eb6fFAVOhAl2emcrvOop-17" value="Pré requsitos &amp; Disciplina" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1070" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eb6fFAVOhAl2emcrvOop-18" value="Pk IdPreRequisitos &amp;Disciplina Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-17">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eb6fFAVOhAl2emcrvOop-19" value="Pk  Pre Requisitos IdPreRequisitos Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-17">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eb6fFAVOhAl2emcrvOop-20" value="Pk Disciplina IdDisciplina Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-17">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

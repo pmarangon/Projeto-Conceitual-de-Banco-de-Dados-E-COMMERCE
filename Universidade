@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T00:01:57.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JnLnw-0rhvA1ci5YJTuq" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T00:03:46.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RaFqUb1nAfmlYj9oApuT" version="20.2.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -138,8 +138,8 @@
         <mxCell id="eb6fFAVOhAl2emcrvOop-2" value="Disciplina" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="620" y="600" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="eb6fFAVOhAl2emcrvOop-3" value="PK-Id Disciplina int" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-2">
-          <mxGeometry x="5" y="40" width="120" height="30" as="geometry" />
+        <mxCell id="eb6fFAVOhAl2emcrvOop-3" value="PK-Id Disciplina int&lt;br&gt;Fk Professor IdProfessor Int" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-2">
+          <mxGeometry x="20" y="40" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eb6fFAVOhAl2emcrvOop-5" value="Matriculado" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="60" y="320" width="200" height="200" as="geometry" />
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eb6fFAVOhAl2emcrvOop-17" value="Pré requsitos &amp; Disciplina" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1070" width="230" height="120" as="geometry" />
+          <mxGeometry x="40" y="1120" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eb6fFAVOhAl2emcrvOop-18" value="Pk IdPreRequisitos &amp;Disciplina Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-17">
           <mxGeometry y="30" width="230" height="30" as="geometry" />

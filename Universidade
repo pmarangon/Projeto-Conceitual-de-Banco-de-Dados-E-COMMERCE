@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T23:49:34.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VSrNWSZTArIdNksQU_4w" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T23:50:43.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lLFecUoL93TkJFCWFmkS" version="20.2.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -166,7 +166,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eb6fFAVOhAl2emcrvOop-13" value="Disciplina &amp; Curso" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="350" y="670" width="200" height="200" as="geometry" />
+          <mxGeometry x="360" y="660" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eb6fFAVOhAl2emcrvOop-14" value="Fk Disciplina IdDisciplina Int&lt;br&gt;Fk Curso IdCurso Int" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="eb6fFAVOhAl2emcrvOop-13">
+          <mxGeometry x="20" y="40" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

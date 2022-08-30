@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T20:50:05.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9msO94Tly5cXHm3tQ_D9" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T20:51:31.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="X2asqbn7GTWLEfbDAiCo" version="20.2.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -147,10 +147,10 @@
         <mxCell id="lKhOBtm5xinJUVEaghqM-8" value="Pk IdPedido Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="lKhOBtm5xinJUVEaghqM-7" vertex="1">
           <mxGeometry y="30" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lKhOBtm5xinJUVEaghqM-9" value="Status do Pedido  Varchar (45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="lKhOBtm5xinJUVEaghqM-7" vertex="1">
+        <mxCell id="lKhOBtm5xinJUVEaghqM-9" value="Status do Pedido  Varchar (45)&#xa;Descricao Varchar (45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="lKhOBtm5xinJUVEaghqM-7" vertex="1">
           <mxGeometry y="60" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lKhOBtm5xinJUVEaghqM-10" value="Valor Varchar (45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="lKhOBtm5xinJUVEaghqM-7" vertex="1">
+        <mxCell id="lKhOBtm5xinJUVEaghqM-10" value="Pk Cliente IdCliente Int&#xa;Frete Float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="lKhOBtm5xinJUVEaghqM-7" vertex="1">
           <mxGeometry y="90" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lKhOBtm5xinJUVEaghqM-11" value="Produto &amp; Estoque" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
